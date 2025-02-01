@@ -21,8 +21,23 @@
 </head>
 <body class="font-sora">
     <header class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
-    <nav>
+    <nav class="mx-36 mt-6 flex justify-between">
         <img src="images/logo-header.png" alt="">
+        <ul class="flex items-center justify-center">
+            <li><a href="">Product</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact us</a></li>
+       
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+          </svg>
+          <button>Login</button>
+          <button>Register</button>
+        </ul>
+          
     </nav>
     
     <div class=" pt-10 mb-20 grid justify-around items-center">
@@ -37,9 +52,9 @@
         </div>
     </div>
     </header>
-    <main class="mx-36">
-        <h1 class="text-4xl text-[#179800]">Services</h1>
-        <section class="py-8 lg:py-12">
+    <main class="">
+        <h1 class="mx-36 text-4xl text-[#179800] font-bold">Services</h1>
+        <section class="mx-36 py-8 lg:py-12">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-center">
             <!-- card 3 -->
              <div class="rounded-2xl shadow-md bg-[#EFEBE3] overflow-hidden">
@@ -58,7 +73,7 @@
                 </div>
                     <div class="p-8">
                     <h2 class="font-bold text-xl">Fast Delivery </h2>
-                    <p>We can significantly improve delivery system, raise customer satisfaction, and improve customer loyalty to our business.</p>
+                    <p>We can significantly improve our delivery system, raise customer satisfaction, and improve customer loyalty to our business.</p>
                     </div>
                  </div>
                  <!-- card-3 -->
@@ -73,6 +88,169 @@
                      </div>
         </div>
         </section>
+
+        <!-- popular products -->
+         <section class="my-24 py-6 bg-[#EFEBE3]">
+            <h1 class="mx-36  text-4xl text-[#179800] font-bold">Popular Products</h1>
+           <div class="mx-36">
+            <div class="grid grid-cols-2 lg:grid-cols-5 lg:grid-rows-3 gap-6">
+                <div class="w-auto h-96 flex row-span-3 col-span-2 bg-gradient-to-br from-green-500 to-green-200 rounded-xl">
+                    <h2>30% off</h2>
+                    <p>Discover a world of treats, toys, and
+                         essentials handpicked for </p>
+                         <button>Buy Now</button>
+                         <img class="h-64 w-52" src="images/vegetable-offer.png" alt="">
+                </div>
+                <div class="bg-white p-2 flex items-center justify-center rounded-lg">
+                    <div>
+                        <img class="bg-[#EFEBE3] rounded-lg" src="images/onion.png" alt="">
+                    </div>
+                    <div class="flex "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-amber-500">
+                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                      </svg>
+                      <h2 class="font-bold">4.5</h2>
+                      </div>
+                      <div>
+                        <h1 class="font-bold">Onion 1 KG</h1>
+                        <h2 class="font-semibold">$39.99</h2>
+                      </div>
+                </div>
+                <div class="bg-white p-2 flex items-center justify-center rounded-lg">
+                    <div>
+                        <img class="bg-[#EFEBE3] rounded-lg" src="images/tomato.png" alt="">
+                    </div>
+                    <div class="flex "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-amber-500">
+                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                      </svg>
+                      <h2 class="font-bold">4.5</h2>
+                      </div>
+                      <div>
+                        <h1 class="font-bold">Onion 1 KG</h1>
+                        <h2 class="font-semibold">$39.99</h2>
+                      </div>
+                </div>
+                <div class="bg-white p-2 flex items-center justify-center rounded-lg">
+                    <div>
+                        <img class="bg-[#EFEBE3] rounded-lg" src="images/potato.png" alt="">
+                    </div>
+                    <div class="flex "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-amber-500">
+                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                      </svg>
+                      <h2 class="font-bold">4.5</h2>
+                      </div>
+                      <div>
+                        <h1 class="font-bold">Onion 1 KG</h1>
+                        <h2 class="font-semibold">$39.99</h2>
+                      </div>
+                </div>
+                <div class="bg-white p-2 flex items-center justify-center rounded-lg">
+                    <div>
+                        <img class="bg-[#EFEBE3] rounded-lg" src="images/onion.png" alt="">
+                    </div>
+                    <div class="flex "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-amber-500">
+                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                      </svg>
+                      <h2 class="font-bold">4.5</h2>
+                      </div>
+                      <div>
+                        <h1 class="font-bold">Onion 1 KG</h1>
+                        <h2 class="font-semibold">$39.99</h2>
+                      </div>
+                </div>
+                <div class="bg-white p-2 flex items-center justify-center rounded-lg">
+                    <div>
+                        <img class="bg-[#EFEBE3] rounded-lg" src="images/tomato.png" alt="">
+                    </div>
+                    <div class="flex "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-amber-500">
+                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                      </svg>
+                      <h2 class="font-bold">4.5</h2>
+                      </div>
+                      <div>
+                        <h1 class="font-bold">Onion 1 KG</h1>
+                        <h2 class="font-semibold">$39.99</h2>
+                      </div>
+                </div>
+                <div class="bg-white p-2 flex items-center justify-center rounded-lg">
+                    <div>
+                        <img class="bg-[#EFEBE3] rounded-lg" src="images/potato.png" alt="">
+                    </div>
+                    <div class="flex "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-amber-500">
+                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                      </svg>
+                      <h2 class="font-bold">4.5</h2>
+                      </div>
+                      <div>
+                        <h1 class="font-bold">Onion 1 KG</h1>
+                        <h2 class="font-semibold">$39.99</h2>
+                      </div>
+                </div>
+                <div class="bg-white p-2 flex items-center justify-center rounded-lg">
+                    <div>
+                        <img class="bg-[#EFEBE3] rounded-lg" src="images/potato.png" alt="">
+                    </div>
+                    <div class="flex "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-amber-500">
+                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                      </svg>
+                      <h2 class="font-bold">4.5</h2>
+                      </div>
+                      <div>
+                        <h1 class="font-bold">Onion 1 KG</h1>
+                        <h2 class="font-semibold">$39.99</h2>
+                      </div>
+                </div>
+                <div class="bg-white p-2 flex items-center justify-center rounded-lg">
+                    <div>
+                        <img class="bg-[#EFEBE3] rounded-lg" src="images/tomato.png" alt="">
+                    </div>
+                    <div class="flex "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-amber-500">
+                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                      </svg>
+                      <h2 class="font-bold">4.5</h2>
+                      </div>
+                      <div>
+                        <h1 class="font-bold">Onion 1 KG</h1>
+                        <h2 class="font-semibold">$39.99</h2>
+                      </div>
+                </div>
+                <div class="bg-white p-2 flex items-center justify-center rounded-lg">
+                    <div>
+                        <img class="bg-[#EFEBE3] rounded-lg" src="images/onion.png" alt="">
+                    </div>
+                    <div class="flex "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-amber-500">
+                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                      </svg>
+                      <h2 class="font-bold">4.5</h2>
+                      </div>
+                      <div>
+                        <h1 class="font-bold">Onion 1 KG</h1>
+                        <h2 class="font-semibold">$39.99</h2>
+                      </div>
+                </div>
+            </div>
+           </div>
+         </section>
+
+         <!-- arival offers -->
+          <section class="mt-24 mb-24">
+            <h1 class="mx-36 text-4xl text-[#179800] font-bold">Arrival & Offers</h1>
+            <div class="mx-36 grid grid-cols-3 lg:grid-cols-5 gap-6">
+                <div class="flex bg-[#115414] grid col-span-3 rounded-2xl">
+                    <img src="images/dawat-logo.png" alt="">
+                    <button>Cook Exotic Dishes</button>
+                    <h1>UP to 20% OFF</h1>
+                    <div>
+                        <img src="images/dawat-mock-up.png" alt="">
+                    </div>
+                </div>
+                <div class="bg-[#102861] col-span-2 rounded-2xl">
+                    <img src="images/india-gate-logo.png" alt="">
+                    <button>World’s No.1 Rice</button>
+                    <h1>UP to 40% OFF</h1>
+                    <img src="images/india-gate-mock-up.png" alt="">
+                </div>
+            </div>
+          </section>
     </main>
     <footer>
 
